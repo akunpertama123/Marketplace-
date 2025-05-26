@@ -1,0 +1,215 @@
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+.search-container {
+    max-width: 400px;
+}
+
+.template-card {
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    height: 100%;
+    background-color: #1a1a3d !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+    box-shadow: 0 0 10px rgba(255, 76, 96, 0.5) !important;
+    color: #fff !important;
+    display: flex !important;
+    flex-direction: column !important;
+    cursor: pointer !important;
+    transition: transform 0.3s ease !important;
+}
+
+.template-card:hover {
+    transform: translateY(-5px) !important;
+    box-shadow: 0 0 15px rgba(255, 76, 96, 0.7) !important;
+}
+
+.template-card .card-body {
+    padding: 1rem !important;
+    flex-grow: 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+}
+
+.template-card .card-title {
+    font-weight: 700 !important;
+    margin-bottom: 0.5rem !important;
+    color: #fff !important;
+}
+
+.template-card .card-text {
+    flex-grow: 1 !important;
+    margin-bottom: 0.75rem !important;
+    color: #fff !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+.template-type {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.type-powerpoint {
+    background-color: #ff4b4b;
+    color: white;
+}
+
+.type-excel {
+    background-color: #1f7244;
+    color: white;
+}
+
+.price {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #ff4c60 !important;
+    margin-top: auto;
+}
+
+.btn-group {
+    margin-bottom: 1.5rem;
+}
+
+.btn-group .btn {
+    padding: 0.5rem 1.5rem;
+    background-color: #111133;
+    color: #ffffff;
+    border-color: #111133;
+}
+
+.btn-group .btn:hover {
+    background-color: #ff4c60;
+    border-color: #ff4c60;
+    color: #ffffff;
+}
+
+.modal-body h4 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.modal-body .text-muted {
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+}
+
+.modal-body h5 {
+    color: red;
+    margin-top: 1.5rem;
+}
+
+#templatesGrid {
+    margin-top: 1rem;
+}
+
+.template-card .description {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 4.5em;
+}
+
+.input-group {
+    width: auto;
+}
+
+.navbar-text {
+    color: white !important;
+}
+
+/* Image Preview Styles */
+#detailSamplePreviews img {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#detailSamplePreviews img:hover {
+    transform: scale(1.05);
+}
+
+#imagePreviewModal .modal-body {
+    padding: 0;
+    background: #000;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#imagePreviewModal #previewImage {
+    max-height: 80vh;
+    object-fit: contain;
+}
+
+#imagePreviewModal .btn-dark {
+    opacity: 0.7;
+}
+
+#imagePreviewModal .btn-dark:hover {
+    opacity: 1;
+}
+
+.custom-navbar-bg {
+    background-color: #1a1a3d !important;
+}
+
+/* Custom color overrides for segmented control buttons */
+.btn-outline-primary {
+    color: #ffffff;
+    border-color: #111133;
+}
+
+.btn-outline-primary.clicked {
+    color: #ff4c60 !important;
+}
+
+.btn-outline-primary.active {
+    color: #111133;
+    background-color: #ff4c60;
+    border-color: #fff;
+}
+
+.btn-outline-primary:hover {
+    background-color: #111133;
+    border-color: #ff4c60;
+    color: #ffffff;
+}
+
+.btn-view-details-custom {
+    background-color: #111133;
+    border: 1px solid #f1f1f1;
+    color: #ffffff;
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.btn-view-details-custom:hover {
+    background-color: #ff4c60;
+    color: #fff;
+}
+
+.btn-view-details-custom.clicked {
+    color: #111133;
+}

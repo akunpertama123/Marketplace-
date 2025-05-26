@@ -1,0 +1,248 @@
+#templatesGrid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)) !important;
+  gap: 1rem !important;
+}
+
+.card.template-card {
+  background-color: #fff !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+  color: #000 !important;
+  cursor: pointer !important;
+  transition: transform 0.3s ease !important;
+  border: 1px solid #ddd !important;
+  padding: 0 !important;
+  max-width: 300px !important;
+  margin: 0.5rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+}
+
+.card.template-card:hover {
+  transform: translateY(-5px) !important;
+}
+
+.card.template-card img.card-img-top {
+  width: 100% !important;
+  height: 150px !important;
+  object-fit: cover !important;
+  border-radius: 8px 8px 0 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.card.template-card .card-body {
+  padding: 1rem !important;
+}
+
+.template-type {
+  font-size: 0.8rem !important;
+  font-weight: 600 !important;
+  color: #6c757d !important;
+  margin-bottom: 0.5rem !important;
+  text-transform: uppercase !important;
+}
+
+.card-title {
+  font-size: 1.1rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 0.5rem !important;
+  color: #212529 !important;
+}
+
+.card-text.description {
+  font-size: 0.9rem !important;
+  margin-bottom: 0.75rem !important;
+  color: #495057 !important;
+}
+
+.price {
+  font-weight: 700 !important;
+  color: #007bff !important;
+  margin-bottom: 0.75rem !important;
+}
+
+.btn-buy {
+  background-color: #ff4c60 !important;
+  color: #fff !important;
+  border: none !important;
+  padding: 0.3rem 0.75rem !important;
+  border-radius: 4px !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  font-size: 0.9rem !important;
+  transition: background-color 0.3s ease !important;
+  margin-left: 0.5rem !important;
+}
+
+.btn-buy:hover {
+  background-color: #e04356 !important;
+  color: #fff !important;
+}
+
+.btn-view-details {
+  background-color: red !important;
+  border: 1px solid #111133 !important;
+  color: #ffffff !important;
+  padding: 0.5rem !important;
+  border-radius: 4px !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  transition: background-color 0.3s ease !important;
+  text-align: center !important;
+}
+
+.btn-view-details:hover {
+  background-color: #333366 !important;
+  color: #fff !important;
+}
+
+.card.template-card {
+  background-color: #fff !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+  color: #000 !important;
+  cursor: pointer !important;
+  transition: transform 0.3s ease !important;
+  border: 1px solid #ddd !important;
+  padding: 0 !important;
+  max-width: 350px !important;
+  margin: 1rem auto !important;
+}
+
+.card.template-card:hover {
+  transform: translateY(-5px) !important;
+}
+
+.card.template-card img.card-img-top {
+  width: 100% !important;
+  height: 150px !important;
+  object-fit: cover !important;
+  border-radius: 8px 8px 0 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.card.template-card .card-body {
+  padding: 1rem !important;
+}
+
+.template-type {
+  font-size: 0.8rem !important;
+  font-weight: 600 !important;
+  color: #6c757d !important;
+  margin-bottom: 0.5rem !important;
+  text-transform: uppercase !important;
+}
+
+.card-title {
+  font-size: 1.1rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 0.5rem !important;
+  color: #212529 !important;
+}
+
+.card-text.description {
+  font-size: 0.9rem !important;
+  margin-bottom: 0.75rem !important;
+  color: #495057 !important;
+}
+
+.price {
+  font-weight: 700 !important;
+  color: #007bff !important;
+  margin-bottom: 0.75rem !important;
+}
+
+.btn-view-details {
+  background-color: transparent !important;
+  border: 1px solid #007bff !important;
+  color: #007bff !important;
+  padding: 0.5rem !important;
+  border-radius: 4px !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  transition: background-color 0.3s ease !important;
+  text-align: center !important;
+}
+
+.btn-view-details:hover {
+  background-color: #007bff !important;
+  color: #fff !important;
+}
+
+.card.template-card {
+  background-color: #fff !important;
+  border-radius: 8px !important;
+  overflow: hidden !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+  color: #000 !important;
+  cursor: pointer !important;
+  transition: transform 0.3s ease !important;
+  border: 1px solid #ddd !important;
+  padding: 0 !important;
+  max-width: 350px !important;
+  margin: 1rem auto !important;
+}
+
+.card.template-card:hover {
+  transform: translateY(-5px) !important;
+}
+
+.card.template-card img.card-img-top {
+  width: 100% !important;
+  height: 250px !important;
+  object-fit: cover !important;
+  border-radius: 8px 8px 0 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.card.template-card .card-body {
+  padding: 1rem !important;
+}
+
+.template-type {
+  font-size: 0.8rem !important;
+  font-weight: 600 !important;
+  color: #ff4c60 !important;
+  margin-bottom: 0.5rem !important;
+  text-transform: uppercase !important;
+}
+
+.card-title {
+  font-size: 1.1rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 0.5rem !important;
+  color: #212529 !important;
+}
+
+.card-text.description {
+  font-size: 0.9rem !important;
+  margin-bottom: 0.75rem !important;
+  color: #495057 !important;
+}
+
+.price {
+  font-weight: 700 !important;
+  color: #007bff !important;
+  margin-bottom: 0.75rem !important;
+}
+
+.btn-view-details {
+  background-color: transparent !important;
+  border: 1px solid #007bff !important;
+  color: #007bff !important;
+  padding: 0.5rem !important;
+  border-radius: 4px !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  transition: background-color 0.3s ease !important;
+  text-align: center !important;
+}
+
+.btn-view-details:hover {
+  background-color: #007bff !important;
+  color: #fff !important;
+}
